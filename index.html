@@ -2,13 +2,176 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
+    <!--<meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
     <title>Travel</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Serif:wght@400;700&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+<section class="promo">
+    <div class="container">
+        <header class="promo__header">
+            <a class="promo__logo" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <nav class="promo__menu">
+                <ul class="promo__menu-list">
+                    <li class="promo__menu-item"><a href="#">Home</a></li>
+                    <li class="promo__menu-item"><a href="#">About</a></li>
+                    <li class="promo__menu-item"><a href="#">Services</a></li>
+                    <li class="promo__menu-item"><a href="#">Gallery</a></li>
+                    <li class="promo__menu-item"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="promo__inner">
+            <div class="promo__content">
+                <h1 class="promo__title">Travel is<br><span>beautiful</span></h1>
+                <p class="promo__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </div>
+            <form class="promo__form" action="#">
+                <h3 class="promo__form-title">request a quote</h3>
+                <input class="promo__form-input" type="text" name="name" placeholder="Full Name">
+                <input class="promo__form-input" type="text" name="email" placeholder="Email Address">
+                <input class="promo__form-input" type="text" name="phone" placeholder="Phone Number">
+                <input class="promo__form-input" type="text" name="country" placeholder="Country">
+                <input class="promo__form-checkbox" type="checkbox" id="terms" name="terms" value="Yes">
+                <label class="promo__checkbox-label" for="terms">I accept the terms & conditions</label>
+                <button class="promo__form-submit" type="submit">
+                    Send
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+<section class="services">
+    <div class="container">
+        <h2 class="services__title title"><span>Our</span> Services</h2>
+        <div class="services__content">
+            <div class="services__item">
+                <img class="services__item-image heart" src="img/heart.svg" alt="Icon">
+                <p class="services__item-text">Making your trip<br>beautiful and easier</p>
+            </div>
+            <div class="services__item">
+                <img class="services__item-image tools" src="img/tools.svg" alt="Icon">
+                <p class="services__item-text">Tools to help you<br>succeed tomorrow</p>
+            </div>
+            <div class="services__item">
+                <img class="services__item-image lamp" src="img/lamp.svg" alt="Icon">
+                <p class="services__item-text">Ideas that will blow<br>you out the blue</p>
+            </div>
+            <div class="services__item">
+                <img class="services__item-image navigator" src="img/navigator.svg" alt="Icon">
+                <p class="services__item-text">Navigate your path<br>to beautiful world</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="story">
+    <div class="container">
+        <div class="story__content">
+            <p class="story__content-text">We are in business for over 6 years providing amazing services to client
+                and people love them to the core. View our story to know more.</p>
+            <a class="story__content-button" href="">our story</a>
+        </div>
+    </div>
+</section>
+<section class="pricing">
+    <div class="container">
+        <h2 class="pricing__title title">Pricing</h2>
+        <div class="pricing__products">
+            <div class="pricing__products-item">
+                <p class="pricing__products-title">Starter</p>
+                <p class="pricing__products-cost">free</p>
+                <ul class="pricing__products-list">
+                    <li class="pricing__products-description">Free Service</li>
+                    <li class="pricing__products-description">Multiple Accounts</li>
+                    <li class="pricing__products-description">Management No</li>
+                    <li class="pricing__products-description">--</li>
+                    <li class="pricing__products-description">--</li>
+                </ul>
+                <button class="pricing__products-btn">Try</button>
+            </div>
+            <div class="pricing__products-item business">
+                <p class="pricing__products-title">Business</p>
+                <p class="pricing__products-cost">$97</p>
+                <ul class="pricing__products-list">
+                    <li class="pricing__products-description">Free Service</li>
+                    <li class="pricing__products-description">Multiple Accounts</li>
+                    <li class="pricing__products-description">Management No</li>
+                    <li class="pricing__products-description">Unlimited Data</li>
+                    <li class="pricing__products-description">--</li>
+                </ul>
+                <div class="triangle"></div>
+                <button class="pricing__products-btn btn-main">Sign up</button>
+            </div>
+            <div class="pricing__products-item">
+                <p class="pricing__products-title">Professional</p>
+                <p class="pricing__products-cost">$297</p>
+                <ul class="pricing__products-list">
+                    <li class="pricing__products-description">Free Service</li>
+                    <li class="pricing__products-description">Multiple Accounts</li>
+                    <li class="pricing__products-description">Management No</li>
+                    <li class="pricing__products-description">Unlimited Data</li>
+                    <li class="pricing__products-description">Whatever You Need</li>
+                </ul>
+                <button class="pricing__products-btn">Sign up</button>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="testimonial-gallery">
+    <section class="testimonial">
+        <h2 class="testimonial__title title">testimonial</h2>
+        <div class="testimonial__item">
+            <p class="testimonial__description">I have been involved with this company for ages and just want to say
+                this is a great work by designcoon.</p>
+            <div class="testimonial__img"><img src="img/person1.png" alt="Person"></div>
+            <p class="testimonial__subtext">DJ Bravo - Frequent Traveler</p>
+        </div>
+        <div class="testimonial__item">
+            <p class="testimonial__description">I have been involved with this company for ages and just.</p>
+            <div class="testimonial__img"><img src="img/person2.png" alt="Person"></div>
+            <p class="testimonial__subtext">DJ Bravo - Frequent Traveler</p>
+        </div>
+    </section>
+    <section class="gallery">
+        <h2 class="gallery__title title"><span>gallery</span></h2>
+        <ul class="gallery__images">
+            <li class="gallery__images-item">
+                <img src="img/gallery-item1.png" alt="work">
+            </li>
+            <li class="gallery__images-item">
+                <img src="img/gallery-item2.png" alt="work">
+            </li>
+            <li class="gallery__images-item">
+                <img src="img/gallery-item3.png" alt="work">
+            </li>
+            <li class="gallery__images-item">
+                <img src="img/gallery-item4.png" alt="work">
+            </li>
+            <li class="gallery__images-item">
+                <img src="img/gallery-item5.png" alt="work">
+            </li>
+            <li class="gallery__images-item">
+                <img src="img/gallery-item6.png" alt="work">
+            </li>
+        </ul>
+        <a class="gallery__link" href="#">view more pictures</a>
+    </section>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__content">
+            <p class="footer__copy">All Rights Reserved | 2016 | Designed with love by <span>DesignCoon</span></p>
+            <div class="footer__logo"><img src="img/Logo.png" alt="Logo"></div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
